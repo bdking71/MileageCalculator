@@ -58,7 +58,6 @@ namespace Mileage_Calculator
                 double distanceKm = await distanceCalculator.GetDrivingDistanceAsync(fromAddress, toAddress);
                 double distanceMiles = ConvertKmToMiles(distanceKm);
 
-                MessageBox.Show($"Driving Distance:n{distanceKm:F2} km\n{distanceMiles:F2} miles", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 tbDistance.Text = distanceMiles.ToString("0.00");
             }
             finally

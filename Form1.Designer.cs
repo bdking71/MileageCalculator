@@ -55,7 +55,6 @@
             this.tbFrom.Name = "tbFrom";
             this.tbFrom.Size = new System.Drawing.Size(550, 32);
             this.tbFrom.TabIndex = 1;
-            this.tbFrom.Text = "448 Lincoln Ave, Lincoln Park, Michigan 48146";
             // 
             // tbToAddress
             // 
@@ -64,7 +63,6 @@
             this.tbToAddress.Name = "tbToAddress";
             this.tbToAddress.Size = new System.Drawing.Size(550, 32);
             this.tbToAddress.TabIndex = 2;
-            this.tbToAddress.Text = "200 Museum Dr, Lansing, MI 48933 ";
             // 
             // label1
             // 
